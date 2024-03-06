@@ -8,8 +8,9 @@ public class Main {
         Menu xsalad = new Menu("X-salada", 28.00);
 
 
-        System.out.println(xburger.nome);
         System.out.println(xburger.preco);
+        System.out.println(xbacon.preco);
+        System.out.println(xsalad.preco);
         System.out.println(Restaurante.cardapio);
     }
 }
