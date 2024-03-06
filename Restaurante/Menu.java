@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class Menu {
 
-    static HashMap<String, Double> cardapio = new HashMap<String, Double>();
+
     String nome;
     double preco;
 
@@ -14,7 +14,7 @@ public class Menu {
         this.nome = name;
         this.preco = precoV;
         ArrayList<String> Ingredientes = new ArrayList<>();
-        cardapio.put(this.nome, this.preco);
+        Restaurante.cardapio.put(this.nome, this.preco);
 
     }
 }
