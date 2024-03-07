@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-class Prime {
+class IsPrime {
     public static void main(String[]args) {
 
         //pede input int
