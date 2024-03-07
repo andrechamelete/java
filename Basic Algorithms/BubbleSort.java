@@ -3,12 +3,13 @@ public class BubbleSort {
         int[] lista = {34, 12, 35, 93, 83, 67, 10, 8, 38, 2, 48, 30, 49, 29};
         boolean swap;
 
-        for (int x = 0; x < lista.length; x++) {
-            System.out.print(lista[x] + ", ");
-        }
-        System.out.println();
-
         for (int z = 0; z < lista.length -1; z++) {
+
+            for (int x = 0; x < lista.length; x++) {
+                System.out.print(lista[x] + " ");
+            }
+            System.out.println();
+
 
             swap = false;
             for (int i = 0; i < lista.length -1; i++) {
@@ -23,10 +24,5 @@ public class BubbleSort {
                 {break;
             }
         }
-
-        for (int x = 0; x < lista.length; x++) {
-            System.out.print(lista[x] + ", ");
-        }
-        System.out.println();
     }
 }
