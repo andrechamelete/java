@@ -22,7 +22,7 @@ public class MergeSort {
         ArrayList<Integer> result = new ArrayList<Integer>();
         int i = 0;
         int j = 0;
-        for (int k = 0; i < left.size() && j < right.size(); k++) {
+        while (i < left.size() && j < right.size()) {
             if (left.get(i) < right.get(j)) {
                 result.add(left.get(i));
                 i++;

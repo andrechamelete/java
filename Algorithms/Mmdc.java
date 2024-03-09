@@ -8,6 +8,7 @@ class Mmdc {
         System.out.print("Primeiro número: ");
 
         int n1 = pr.nextInt();
+        pr.close();
 
         Scanner sg = new Scanner(System.in);
         System.out.print("Segundo número: ");
@@ -18,7 +19,6 @@ class Mmdc {
 
         //classificar entradas e criar variáveis para o cálculo
         int menor = (n1 < n2) ? n1 : n2;
-        int maior = (n1 > n2) ? n1 : n2;
         int mdc = 1;
         int mmc = 1;
 
