@@ -1,5 +1,4 @@
 //classe representa o cardápio, e seus objetos são os pratos
-
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -17,4 +16,8 @@ public class Menu {
         Restaurante.cardapio.put(this.nome, this.preco);
 
     }
+
+    Menu xburger = new Menu("X-burger", 25.00);
+    Menu xbacon = new Menu("X-bacon", 28.00);
+    Menu xsalad = new Menu("X-salada", 28.00);  
 }
