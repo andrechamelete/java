@@ -12,9 +12,7 @@ public class Pedido {
         System.out.println("2 - X-Bacon");
         System.out.println("3 - X-Salada");
         
-        Pedir();
-
-        
+        Pedir();        
     }
 
     static void Pedir() {
@@ -37,7 +35,6 @@ public class Pedido {
                 Pedir();
                  
         }
-        opt.close();
-    
+        opt.close();    
     }
 }
