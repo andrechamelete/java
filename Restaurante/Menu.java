@@ -10,9 +10,9 @@ public class Menu {
     double preco;
 
     // class sabe quais pratos (objetos) existem e seus valores:
-    Menu (String name, double precoV) {
-        this.nome = name;
-        this.preco = precoV;
+    Menu (String n, double p) {
+        this.nome = n;
+        this.preco = p;
         ArrayList<String> Ingredientes = new ArrayList<>();
         Restaurante.cardapio.put(this.nome, this.preco);
 
