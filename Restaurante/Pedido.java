@@ -21,8 +21,6 @@ public class Pedido {
         System.out.print("O que você deseja? (digite o número): ");
         Scanner opt = new Scanner(System.in);
         int input = opt.nextInt();
-        
-        boolean flag = true;
 
         switch (input) {
             case 1:

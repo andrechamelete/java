@@ -1,6 +1,6 @@
 //classe representa o cardápio, e seus objetos são os pratos
 import java.util.ArrayList;
-import java.util.HashMap;
+
 
 public class Menu {
 
