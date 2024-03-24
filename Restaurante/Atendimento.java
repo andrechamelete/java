@@ -1,11 +1,11 @@
 // classe representa o pagamento do pedido
 import java.util.Scanner;
 
-public class Pedido {
+public class Atendimento {
 
-    public Pedido() {}
+    public Atendimento() {}
 
-    static void Atendimento() {      
+    static void Atender() {      
 
         System.out.println("Olá, bem vindo ao Restaurante! \nAqui está nosso cardápio. Posso anotar seu pedido?");
         System.out.println("1 - X-Burger");
