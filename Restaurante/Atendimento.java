@@ -34,7 +34,7 @@ public class Atendimento {
                 break;
             default:
                 System.out.println("Não é um pedido válido");
-                Pedir();
+                oferecer();
                  
         }
         opt.close();    

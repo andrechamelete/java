@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Cliente{
     private int clienteId;
-    private String nome;
+    protected String nome;
     private String sobrenome;
     private String login;
     private String senha;
@@ -24,7 +24,8 @@ public class Cliente{
         String password = reg.nextLine();
 
         new Cliente(user, password);
-
+        reg.close();
+        
         System.out.println(user);
         System.out.println(password);
 
