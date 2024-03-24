@@ -1,8 +1,8 @@
 package Restaurante;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Pedido {
-    private ArrayList<String> itens = new ArrayList<String>();
+    private HashMap<String, Double> itens = new HashMap<String, Double>();
     private Double Total;
 }
