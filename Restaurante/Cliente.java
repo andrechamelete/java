@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Cliente{
-    private int id;
+    private int clienteId;
     private String nome;
     private String sobrenome;
     private String login;
