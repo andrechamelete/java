@@ -9,4 +9,17 @@ public class Cliente{
     private String senha;
     ArrayList<Pedido> compras = new ArrayList<Pedido>();
 
+    public Cliente () {
+        
+    }
+
+    public void registrar () {
+
+    }
+
+    public void logar () {
+
+    }
+
+
 }
