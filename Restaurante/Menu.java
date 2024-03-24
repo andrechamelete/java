@@ -3,14 +3,15 @@ import java.util.ArrayList;
 
 public class Menu {
 
-    String nome;
-    double preco;
+    private String nome;
+    private Double preco;
+    private ArrayList<String> ingredientes;
 
     // class sabe quais pratos (objetos) existem e seus valores:
-    Menu (String n, double p) {
+    Menu (String n, Double p) {
         this.nome = n;
         this.preco = p;
-        ArrayList<String> Ingredientes = new ArrayList<>();
+        ArrayList<String> ingredientes = new ArrayList<>();
         Restaurante.cardapio.put(this.nome, this.preco);
     }
 
