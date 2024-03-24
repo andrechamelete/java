@@ -18,6 +18,14 @@ public class Menu {
         Restaurante.cardapio.put(this.nome, this.preco);
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public Double getPreco() {
+        return preco;
+    }
+
     //criação de lanche inicialmente para teste
     Menu xburger = new Menu("X-burger", 25.00);
     Menu xbacon = new Menu("X-bacon", 28.00);

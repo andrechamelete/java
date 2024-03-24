@@ -7,17 +7,17 @@ public class Atendimento {
 
     public Atendimento() {}
 
-    static void Atender() {      
+    static void atender() {      
 
         System.out.println("Olá, bem vindo ao Restaurante! \nAqui está nosso cardápio. Posso anotar seu pedido?");
         System.out.println("1 - X-Burger");
         System.out.println("2 - X-Bacon");
         System.out.println("3 - X-Salada");
         
-        Pedir();        
+        oferecer();        
     }
 
-    static void Pedir() {
+    static void oferecer() {
         System.out.print("O que você deseja? (digite o número): ");
         Scanner opt = new Scanner(System.in);
         int input = opt.nextInt();
