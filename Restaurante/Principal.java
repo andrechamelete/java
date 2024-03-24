@@ -1,5 +1,7 @@
+package Restaurante;
+
 public class Principal {
     public static void main(String[]args) {     
-        Pedido.Atendimento();
+        Atendimento.Atender();
     }
 }

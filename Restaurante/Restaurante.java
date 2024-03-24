@@ -1,5 +1,7 @@
 // class representa o restaurante
 
+package Restaurante;
+
 import java.util.HashMap;
 
 public class Restaurante {

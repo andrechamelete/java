@@ -1,4 +1,7 @@
 //classe representa o cardápio, e seus objetos são os pratos
+
+package Restaurante;
+
 import java.util.ArrayList;
 
 public class Menu {

@@ -1,4 +1,6 @@
 // classe representa o pagamento do pedido
+package Restaurante;
+
 import java.util.Scanner;
 
 public class Atendimento {
