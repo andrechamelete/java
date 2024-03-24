@@ -17,18 +17,21 @@ public class Cliente{
     }
 
     public static void registrar () {
-        Scanner reg = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Usuário: ");
-        String user = reg.nextLine();
+        String user = scanner.nextLine();
+        
         System.out.print("Senha: ");
-        String password = reg.nextLine();
+        String password = scanner.nextLine();
+        
 
         new Cliente(user, password);
-        reg.close();
+        
         
         System.out.println(user);
         System.out.println(password);
-
+        
+        
 
     }
 

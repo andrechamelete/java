@@ -18,9 +18,10 @@ public class Atendimento {
     }
 
     static void oferecer() {
+        
         System.out.print("O que você deseja? (digite o número): ");
         Scanner opt = new Scanner(System.in);
-        int input = opt.nextInt();
+        int input = opt.nextInt();        
 
         switch (input) {
             case 1:
@@ -37,6 +38,8 @@ public class Atendimento {
                 oferecer();
                  
         }
-        opt.close();    
+        
+        opt.close();
+            
     }
 }
