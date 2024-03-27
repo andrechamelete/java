@@ -10,11 +10,11 @@ public class Lanchonete {
         int opcao;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("============ Seja Bem Vindo ============");
+        System.out.println("===========> Seja Bem Vindo <===========");
         System.out.println();
 
         do {    
-            System.out.println("============= Menu Inicial =============");
+            System.out.println("============> Menu Inicial <============");
             System.out.println("1. Cadastrar");
             System.out.println("2. Logar");
             System.out.println("3. Cardápio");
@@ -46,19 +46,20 @@ public class Lanchonete {
                     int opt = scanner.nextInt();
                     Pedido pedindo = new Pedido(opt);
                     System.out.println();
-                    System.out.println("=========== Pedido Realizado ===========");
+                    System.out.println("==========> Pedido Realizado <==========");
                     System.out.println(pedindo);
                     System.out.println("========================================");
                     System.out.println();
                     break;
                 
                 case 5:
-                    System.out.println("****************************************");
+                    System.out.println("************ Volte Sempre! *************");
                     break;
             }
         }
         while (opcao != 5);
-        System.out.println("Obrigado por utilizar nossos serviços!");
+        System.out.println("E obrigado por utilizar nossos serviços!");
+        System.out.println();
 
         scanner.close();
 

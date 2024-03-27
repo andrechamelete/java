@@ -36,8 +36,10 @@ public class Produto {
     }
 
     static void getCardapio (){
+        System.out.println("==============> Cardápio <==============");
         for (Integer i : Produto.cardapio.keySet()) {
             System.out.println(Produto.cardapio.get(i));
         }
+        System.out.println("========================================");
     }    
 }

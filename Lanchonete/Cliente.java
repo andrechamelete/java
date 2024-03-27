@@ -32,10 +32,11 @@ public class Cliente {
              System.out.println("Usuário já utilizado! Favor escolher outro nome de usuário");
             registrar();        
         }
-        System.out.print("Escolha uma senha: ");
-        String password = scanner.nextLine();
-        Cliente userCliente = new Cliente(user, password); 
-                
+        else {
+            System.out.print("Escolha uma senha: ");
+            String password = scanner.nextLine();
+            Cliente userCliente = new Cliente(user, password); 
+        }
     }
 
     public static void login() {
