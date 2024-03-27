@@ -1,4 +1,4 @@
-package Comercio;
+package Lanchonete;
 
 import java.util.Scanner;
 
