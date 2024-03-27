@@ -56,7 +56,6 @@ public class Cliente {
         else {
             System.out.println("Cliente não cadastrado.\nFavor realizar o cadastro:");
             Cliente.registrar();
-        }
-        
+        }        
     }
 }

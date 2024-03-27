@@ -39,9 +39,5 @@ public class Produto {
         for (Integer i : Produto.cardapio.keySet()) {
             System.out.println(Produto.cardapio.get(i));
         }
-    } 
-
-    
-
-    
+    }    
 }
